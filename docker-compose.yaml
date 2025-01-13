@@ -1,0 +1,27 @@
+version: '10.30'
+
+services:
+  nodejs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+
+#"Construir y levantar el servicio"
+#docker-compose up -d --build
+
+
+#Acceder al contenedor docker llamado mi
+#docker exec -it nombre-del-contenedor sh
+
+#docker exec -it mi bash
+
+
+#docker exec -it d8dd7556f4eedf6fbc70c42daff2a3f817e9adeb20a46875eccb0b7d9856e426 bash
+
+
+
+#COMANDO PARA COPIAR un archivo de un contenedor a un raiz de disco d: fisico
+#docker cp d8dd7556f4ee:/app D:\appnextjs
+
