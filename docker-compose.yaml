@@ -23,5 +23,15 @@ services:
 
 
 #COMANDO PARA COPIAR un archivo de un contenedor a un raiz de disco d: fisico
-#docker cp d8dd7556f4ee:/app D:\appnextjs
+#docker cp d8dd7556f4ee:/app/aplicationnextjs D:\appnextjs
+
+#docker cp d8dd7556f4ee:/app/vite_pnpm_app D:\appnextjs
+
+
+#EJEMPLOS
+#PS D:\appnextjs\app> docker cp d8dd7556f4ee:/app/vite_pnpm_app D:\appnextjs
+#Successfully copied 23.6kB to D:\appnextjs
+#PS D:\appnextjs\app> docker cp d8dd7556f4ee:/app/aplicationnextjs D:\appnextjs
+#PS D:\appnextjs\app> docker cp d8dd7556f4ee:/app/aplicationnextjs D:\appnextjs
+
 
